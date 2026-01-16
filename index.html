@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian & Mayara</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* FUNDO VAN GOGH */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                              url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .container {
+            max-width: 850px;
+            width: 95%;
+            padding: 40px 0;
+            z-index: 1;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: #f1c40f; 
+            text-shadow: 2px 4px 10px rgba(0,0,0,0.8);
+            margin-bottom: 40px;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        .bloco {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .bloco.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .bloco p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            white-space: pre-line;
+            margin: 0;
+            flex: 1;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .bloco img {
+            width: 38%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+
+        .final {
+            text-align: center;
+            font-weight: bold;
+            background: rgba(10, 25, 60, 0.7) !important;
+            border: 2px solid #f1c40f !important;
+        }
+
+        /* Pétalas estilo estelar */
+        .petal {
+            position: fixed;
+            background: rgba(255, 255, 200, 0.8); 
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: fall linear infinite;
+            z-index: 0;
+            box-shadow: 0 0 10px #fff;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-10vh) translateX(0) rotate(0deg); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(100vh) translateX(50px) rotate(360deg); opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .bloco { flex-direction: column; text-align: center; }
+            .bloco img { width: 85%; }
+            h1 { font-size: 2.2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Para Mayara ❤️</h1>
+
+        <div class="bloco">
+            <p>Mayara, é ate estranho te chamar pelo nome mas continuando ne? às vezes eu me pego te admirando e tentando entender como tive a sorte de te encontrar. Você não é apenas minha namorada. Você é o lugar onde meu coração se sente em casa. Admiro a pessoa que você é, seu sorriso que ilumina até a alma e como você torna tudo ao seu redor mais bonito. Estar ao seu lado todos os dias, é uma melhora pra mim mesmo. Eu amo quem somos juntos, eu amo voce</p>
+        </div>
+
+        <div class="bloco reverse"> 
+            <p>Em um dia comum, você me pediu uma atividade, sem maldade nenhuma.
+            Eu estava um pouco ocupado com um hambúrguer, mas mesmo assim continuamos em uma conversa que parecia não ter fim.
+            Sem perceber, aquilo virou rotina. Falar com você, contar tudo, dividir o di e foi uma das melhores coisas que me aconteceu.
+            Quando eu precisei, você esteve lá. Quando você precisou, eu também estava.
+            Éramos amigos.
+            E, aos poucos, sem aviso, aquilo foi se transformando.
+            Começamos a "voar" juntos, criamos piadas internas e tudo começou.</p>
+            <img src="1.jpg" alt="Nossa piada interna">
+        </div>
+
+        <div class="bloco">
+            <p>Te conheci aos 15, te vi fazer 16, e agora, já já você faz 17.
+            E mesmo com o tempo passando, você continua sendo você, e sempre será.</p>
+        </div>
+
+        <div class="bloco reverse"> 
+            <p>Aos 16, de repente, aconteceu a nossa primeira call.
+            Do outro lado o amor da minha vida
+            Não era só uma ligação era estar contigo, era muito pra mim</p>
+            <img src="2.jpg" alt="Primeira call">
+        </div>
+
+        <div class="bloco"> 
+            <p>Depois, veio a viagem da escola.
+            Fomos juntos, ficamos juntos, voltamos juntos.
+            E na volta… aconteceu aquela surpresa que só a gente sabe.
+            Não foi planejado, não foi forçado.
+            Você quis, eu quis, eu procurei e aconteceu.
+            E dali pra frente, foi só acontecendo.
+            De forma linda, leve e verdadeira.
+            Adrian e Mayara.
+            Pra sempre.</p>
+            <img src="3.jpg" alt="Nossa viagem">
+        </div>
+
+        <div class="bloco reverse"> 
+            <p>Continuamos juntos, conversando e planejando tudo, hoje é dia 15/01 dia da nossa primeira chamada de video</p>
+            <img src="4.jpg" alt="Vídeo chamada">
+        </div>
+
+        <div class="bloco final">
+            <p>E eu também te disse "acho que vou fazer um presente"
+            so pra nao deixar escondido,
+            nos combinamos lembra? nada de mentiras e assim vai sendo,
+            a verdade que estou fazendo desde ontem,
+            hoje estamos namorando,
+            oque era so planos, ideia, ansiedade, medo e julgamentos,
+            virou realidade e muito amor!
+
+            cada linha, cada codigo, cada erro de linha,
+            cada hora pensando nao e nem metade doque eu faria por voce
+            apenas uma demonstraçao
+            to tao ansioso quanto voce imagina pra te entregar isso,
+            mas estou deixando perfeito pra voce,
+
+            Mayara a verdade que eu amo te amar,
+            cada dia, cada minuto, segundo, milesimos,
+            e voce so voce em minha mente,
+            obrigado amor por me escolher
+            e daqui pra frente vamos construir nossa historia de casal.
+
+            EU TE AMO</p>
+        </div>
+    </div>
+
+    <script>
+        function createPetal() {
+            const petal = document.createElement('div');
+            petal.classList.add('petal');
+            document.body.appendChild(petal);
+
+            petal.style.left = Math.random() * 100 + 'vw';
+            const size = Math.random() * 5 + 5 + 'px';
+            petal.style.width = size;
+            petal.style.height = size;
+            petal.style.animationDuration = Math.random() * 3 + 4 + 's';
+            petal.style.opacity = Math.random() * 0.8;
+
+            petal.addEventListener('animationiteration', () => {
+                petal.style.left = Math.random() * 100 + 'vw';
+            });
+        }
+
+        for (let i = 0; i < 40; i++) {
+            createPetal();
+        }
+    </script>
+</body>
+</html>
